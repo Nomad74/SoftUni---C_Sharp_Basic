@@ -30,7 +30,7 @@ namespace _02.PhonebookUpgrade
                         Console.WriteLine($"Contact {input[1]} does not exist.");
                     }
                 }
-                if (input[0] == "L")
+                if (input[0] == "ListALL")
                 {
                     foreach (var item in phonebook)
                     {
