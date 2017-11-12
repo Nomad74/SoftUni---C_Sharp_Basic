@@ -12,7 +12,13 @@ namespace _03.BigPower
         static void Main(string[] args)
         {
             var n = int.Parse(Console.ReadLine());
-            Console.WriteLine(BigInteger.Pow(new BigInteger(n), n));
+            BigInteger numb = 1;
+
+            for (int i = 0; i < n; i++)
+            {
+                numb*= n;
+            }
+            Console.WriteLine(numb);
         }
     }
 }
