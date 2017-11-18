@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2008
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AnonymousDownsite", "01.AnonymousDownsite\01.AnonymousDownsite.csproj", "{2D6FD26E-3F69-4160-AB8F-0C41A92EA124}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PokeMon", "03.PokeMon\03.PokeMon.csproj", "{38810576-25B4-4E20-BCA4-800C36AA62F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Resurrection", "04.Resurrection\04.Resurrection.csproj", "{39E5AA89-5E25-4BF7-8C60-23ED03A8FF1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.Wormtest", "05.Wormtest\05.Wormtest.csproj", "{1A9E64A7-C315-4AF8-9B94-D2B65ADD3685}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{39E5AA89-5E25-4BF7-8C60-23ED03A8FF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39E5AA89-5E25-4BF7-8C60-23ED03A8FF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39E5AA89-5E25-4BF7-8C60-23ED03A8FF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A9E64A7-C315-4AF8-9B94-D2B65ADD3685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A9E64A7-C315-4AF8-9B94-D2B65ADD3685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A9E64A7-C315-4AF8-9B94-D2B65ADD3685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A9E64A7-C315-4AF8-9B94-D2B65ADD3685}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace _03.PokeMon
 {
@@ -11,15 +12,15 @@ namespace _03.PokeMon
         static void Main(string[] args)
         {
             double pokePower = double.Parse(Console.ReadLine());
-            double distanceBetTargint = double.Parse(Console.ReadLine());
+            double distanceBetTarget = double.Parse(Console.ReadLine());
             double exhaustionFactor = double.Parse(Console.ReadLine());
-            int numbTarg = 0; double intDivision = 0.0;
+            double numbTarg = 0; double intDivision = 0.0;
 
-            while(pokePower>distanceBetTargint)
+            while(pokePower>distanceBetTarget)
             {
-                pokePower = pokePower - distanceBetTargint;
+                pokePower = pokePower - distanceBetTarget;
                 numbTarg++;
-                if (pokePower==distanceBetTargint)
+                if (pokePower==distanceBetTarget)
                 {
                     intDivision = pokePower / exhaustionFactor;
                 }
@@ -28,8 +29,8 @@ namespace _03.PokeMon
             {
                 pokePower = intDivision;
             }
-            Console.WriteLine((int)pokePower);
-            Console.WriteLine(numbTarg);
+            Console.WriteLine(Math.Round(pokePower));
+            Console.WriteLine(Math.Round(numbTarg));
         }
     }
 }

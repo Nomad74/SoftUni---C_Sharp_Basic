@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Numerics;
 
 namespace _01.AnonymousDownsite
 {
@@ -13,7 +14,7 @@ namespace _01.AnonymousDownsite
             int n = int.Parse(Console.ReadLine());
             int securityKey = int.Parse(Console.ReadLine());
 
-            var siteVisits = 0.0;  int token = 1;
+            var siteVisits = 0.0;  BigInteger token = 1;
             var siteCommercialPricePerVisit = 0.0;
             List<string> siteName = new List<string>();
             decimal siteLoss = 0.0m;
