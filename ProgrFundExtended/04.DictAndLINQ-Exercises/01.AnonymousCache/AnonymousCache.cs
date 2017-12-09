@@ -36,18 +36,27 @@ namespace _01.AnonymousCache
                 else if(input[0] != "thetinggoesskrra")
                 {
                     var dataSet = input[0];
-                    anonymousCache[dataSet] = new Dictionary<string, int>();
+                    if (!anonymousCache.ContainsKey(dataSet))
+                    {
+                        anonymousCache[dataSet] = new Dictionary<string, int>();
+                    }
                 }
             }
+
             var resultDataKey = new List<string>();
-            var dataKEY = new List<string>();
-            var resultDataSet = "";
-            var sum = 0; var dataSum = 0; var lastSum = 0;
+            string resultDataSet = "";
+            var lastSum = 0;
+            
 
             foreach (var dataSet in anonymousCache)
             {
+                
+                var dataKEY = new List<string>();
+                var dataSum = 0; var sum = 0;
                 var dataSET = dataSet.Key;
                 var dataKey = dataSet.Value;
+                
+
                 foreach (var dataSize in dataKey)
                 {
                     dataKEY.Add(dataSize.Key);
@@ -58,14 +67,15 @@ namespace _01.AnonymousCache
                 sum = 0;
                 if (dataSum>=lastSum)
                 {
+                    lastSum = dataSum;
                     resultDataSet = dataSET;
-                    foreach(var item in dataKEY)
+                    resultDataKey.Clear();
+                    foreach (var item in dataKEY)
                     {
                         resultDataKey.Add(item);
                     }
-                    lastSum = dataSum;
-                    dataSum = 0;
                 }
+                
             }
             Console.WriteLine($"Data Set: {resultDataSet}, Total Size: {lastSum}");
             foreach (var item in resultDataKey)

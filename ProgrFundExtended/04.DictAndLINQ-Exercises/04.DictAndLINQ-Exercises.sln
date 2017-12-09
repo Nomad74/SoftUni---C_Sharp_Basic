@@ -1,9 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2010
+VisualStudioVersion = 15.0.27130.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AnonymousCache", "01.AnonymousCache\01.AnonymousCache.csproj", "{F84207D3-D746-4C19-8C81-C94B30938853}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.HornetArmada", "02.HornetArmada\02.HornetArmada.csproj", "{41BE1A7D-4B34-4201-B53A-1E28EA2A7787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.HornetArm", "02.HornetArm\02.HornetArm.csproj", "{128D3E22-FA84-4CC4-BE98-D6D223B781A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.PhoenixOscarRomeoNovember", "03.PhoenixOscarRomeoNovember\03.PhoenixOscarRomeoNovember.csproj", "{846F4BEF-C5E2-4612-A1C7-6694E35D9DFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.AnonymousCache", "01.Anonymous\01.AnonymousCache.csproj", "{42ACF72E-D5E7-4E1C-9835-0ACA813932F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.Trainlands", "04.Trainlands\04.Trainlands.csproj", "{259C014B-9B9F-4C71-85DA-D40260CE4B3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.PokemonEvolution", "05.PokemonEvolution\05.PokemonEvolution.csproj", "{40CED965-956A-482C-8445-5AE484C953E9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +21,30 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F84207D3-D746-4C19-8C81-C94B30938853}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F84207D3-D746-4C19-8C81-C94B30938853}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F84207D3-D746-4C19-8C81-C94B30938853}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F84207D3-D746-4C19-8C81-C94B30938853}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41BE1A7D-4B34-4201-B53A-1E28EA2A7787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41BE1A7D-4B34-4201-B53A-1E28EA2A7787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41BE1A7D-4B34-4201-B53A-1E28EA2A7787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41BE1A7D-4B34-4201-B53A-1E28EA2A7787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128D3E22-FA84-4CC4-BE98-D6D223B781A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128D3E22-FA84-4CC4-BE98-D6D223B781A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128D3E22-FA84-4CC4-BE98-D6D223B781A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128D3E22-FA84-4CC4-BE98-D6D223B781A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{846F4BEF-C5E2-4612-A1C7-6694E35D9DFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{846F4BEF-C5E2-4612-A1C7-6694E35D9DFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{846F4BEF-C5E2-4612-A1C7-6694E35D9DFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{846F4BEF-C5E2-4612-A1C7-6694E35D9DFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42ACF72E-D5E7-4E1C-9835-0ACA813932F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42ACF72E-D5E7-4E1C-9835-0ACA813932F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42ACF72E-D5E7-4E1C-9835-0ACA813932F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42ACF72E-D5E7-4E1C-9835-0ACA813932F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{259C014B-9B9F-4C71-85DA-D40260CE4B3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{259C014B-9B9F-4C71-85DA-D40260CE4B3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{259C014B-9B9F-4C71-85DA-D40260CE4B3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{259C014B-9B9F-4C71-85DA-D40260CE4B3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CED965-956A-482C-8445-5AE484C953E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CED965-956A-482C-8445-5AE484C953E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CED965-956A-482C-8445-5AE484C953E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CED965-956A-482C-8445-5AE484C953E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
