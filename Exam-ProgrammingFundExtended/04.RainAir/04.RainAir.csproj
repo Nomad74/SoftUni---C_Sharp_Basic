@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E2936F55-769D-4794-A8EE-0460D38A2285}</ProjectGuid>
+    <ProjectGuid>{391B406C-4CC4-4763-B609-5C0C18256B74}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04.SpyGram</RootNamespace>
-    <AssemblyName>04.SpyGram</AssemblyName>
+    <RootNamespace>_04.RainAir</RootNamespace>
+    <AssemblyName>04.RainAir</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,7 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="SpyGram.cs" />
+    <Compile Include="RainAir.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
